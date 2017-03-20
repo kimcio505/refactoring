@@ -17,7 +17,7 @@ public class TestMain {
 		
 		
 		Rental r1 = new Rental(mc1, 3);
-		Rental r2 = new Rental(mc2, 4);
+		Rental r2 = new Rental(mc2, 2);
 		Rental r3 = new Rental(mr1, 2);
 		Rental r4 = new Rental(mr2, 3);
 		Rental r5 = new Rental(mn1, 2);
