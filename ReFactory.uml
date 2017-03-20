@@ -57,7 +57,7 @@
 <XPD:ATTR name="Left" type="integer">436</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">216</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">120</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">82</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">95</XPD:ATTR>
 <XPD:ATTR name="AutoResize" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Model">b8GqDurqSk+Zgq86Xo6tCgAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="K1oI1270RUWttwrvbVGiEwAA">
@@ -86,7 +86,7 @@
 <XPD:OBJ name="OwnedViews[2]" type="UMLAssociationView" guid="OtY4Etaus0+nCb0S8YGeSAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">436,256;330,257</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">436,262;330,259</XPD:ATTR>
 <XPD:REF name="Model">GTKTStww/EWA5QIhZxJjZwAA</XPD:REF>
 <XPD:REF name="Head">j8fJDOPNgkS2foJoT6aJjQAA</XPD:REF>
 <XPD:REF name="Tail">rnbEFNYlFU6ClwTYIZE20QAA</XPD:REF>
@@ -201,7 +201,7 @@
 <XPD:OBJ name="OwnedViews[4]" type="UMLAssociationView" guid="Go6ONVLDaUaeZ5+pUujCEwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">664,258;555,257</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">664,260;555,262</XPD:ATTR>
 <XPD:REF name="Model">2NBUiJR3J0Wppfa2FO+fbAAA</XPD:REF>
 <XPD:REF name="Head">rnbEFNYlFU6ClwTYIZE20QAA</XPD:REF>
 <XPD:REF name="Tail">c833EKFtj0S1ZQ/PD6NvUgAA</XPD:REF>
@@ -379,7 +379,7 @@
 <XPD:REF name="Views[1]">4IvwLkh4QUqSXl/QGTJmiQAA</XPD:REF>
 <XPD:REF name="Views[2]">xAyAX6tERUan1GOjEK11IAAA</XPD:REF>
 <XPD:REF name="Views[3]">mwXuW3WIgUONzK9t7UL/MAAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="sg2PeKJg+UiCjyqSa0BbGAAA">
 <XPD:ATTR name="Name" type="string">getMovie</XPD:ATTR>
 <XPD:REF name="Owner">b8GqDurqSk+Zgq86Xo6tCgAA</XPD:REF>
@@ -398,6 +398,16 @@
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">G0suPscga0G/qmyMwn8nMwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[2]" type="UMLOperation" guid="5AxAhjIxJUOiWbTNJ58dZQAA">
+<XPD:ATTR name="Name" type="string">getCharge</XPD:ATTR>
+<XPD:REF name="Owner">b8GqDurqSk+Zgq86Xo6tCgAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="amHzhk6W40KHv0B0OA6dRgAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">double</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">5AxAhjIxJUOiWbTNJ58dZQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">2</XPD:ATTR>
