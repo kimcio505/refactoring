@@ -31,17 +31,31 @@ public class Customer {
 		sb.append(getName() + "고객님의 대여기록\n");
 
 		for (Rental each : rentals) {
-			frequentRanterPoints += getfrequentRanterPoints(each);
+			frequentRanterPoints +=each.getfrequentRanterPoints();
 
 			sb.append(String.format("\t%s \t %s%n", each.getMovie().getTitle(), each.getcharge()));
-
-			totalAmount += each.getcharge();
 		} // for loop
 
-		sb.append(String.format("누적대여료 : %s%n적립 포인트 : %s%n", totalAmount, frequentRanterPoints));
+		sb.append(String.format("누적대여료 : %s%n적립 포인트 : %s%n", getTotalCharge(), getTotalFrequentRanterPoints()));
 
 		return sb.toString();
 
+	}
+
+	private Object getTotalFrequentRanterPoints() {
+		int result = 0;
+		for (Rental each : rentals) {
+			result += each.getfrequentRanterPoints();
+		}
+		return result;
+	}
+
+	private Object getTotalCharge() {
+		double result = 0.0;
+		for (Rental each : rentals) {
+			result += each.getcharge();
+		}
+		return result;
 	}
 
 	private int getfrequentRanterPoints(Rental each) {
